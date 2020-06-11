@@ -5,8 +5,13 @@ This is the tutorial for installation and use of the developed 3D live-dead plug
 The same process that will be described in this document can be also found in this [YouTube video](https://youtu.be/GbpKZfndSFA). The 
 
 ### Installation
-To install this plugin in FIJI, the first step that must be done is to make the actualization of FIJI. To make it, it is necessary to go to the “Help” window and run the “Update…” function. Follow the update process and restart FIJI when the update is over. 
-The plugin is installed by going to the “Plugins” window and running the “Install…” command. A new window will appear, and it will be necessary to select the plugin downloaded from the GitHub directory. To download the source-code it is necessary to click in the 3D_LiveDead_analysis.py from the GitHub directory, at the top-right press the “Raw” option or use this [link](https://raw.githubusercontent.com/carlesbada/3D_LiveDead_analysis/master/3D_LiveDead_analysis.py). Then save the given code as “3D_LiveDead_analysis.py”.
+To install this plugin in FIJI, the first step that must be done is to make the actualization of FIJI. To make it, it is necessary to go to the “Help” window and run the “Update…” function. To install this plugin in FIJI, the first step that must be done is to make the actualization of FIJI. To make it, it is necessary to go to the “Help” window and run the “Update…” function. In the FIJI updater press the “Manage Update Sites” button and a new window will be opened. Press the button “Add update site” and in the new row generated at the last part of the list, add the following:
+
+- Name: 3D LiveDead Analysis
+- URL: https://sites.imagej.net/CBada/
+
+Then press the “Close button” and the “Apply changes” on the ImageJ Updater window. At the end of the update process, restart FIJI. 
+
 
 Once opened this file, save it as the recommendation made by FIJI. When the process is over, restart FIJI again and the plugin will be installed. 
 
